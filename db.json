@@ -1,15 +1,15 @@
 {
   "ramens": [
     {
-      "id": "1",
-      "name": "Shoyu Ramen",
-      "restaurant": "Nonono",
-      "image": "./assets/ramen/shoyu.jpg",
-      "rating": 7,
-      "comment": "Delish. Can't go wrong with a classic!"
+        "id": 1,
+        "name": "Shoyu Ramen",
+        "restaurant": "Nonono",
+        "image": "./assets/ramen/shoyu.jpg",
+        "rating": 7,
+        "comment": "Delish. Can't go wrong with a classic!"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Naruto Ramen",
       "restaurant": "Naruto",
       "image": "./assets/ramen/naruto.jpg",
@@ -17,7 +17,7 @@
       "comment": "My absolute fave!"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Nirvana Shiromaru",
       "restaurant": "Ippudo",
       "image": "./assets/ramen/nirvana.jpg",
@@ -25,7 +25,7 @@
       "comment": "Do buy the hype."
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Gyukotsu Ramen",
       "restaurant": "Za-Ya Ramen",
       "image": "./assets/ramen/gyukotsu.jpg",
@@ -33,36 +33,12 @@
       "comment": "Good to the last drop."
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "Kojiro Red Ramen",
       "restaurant": "Ramen-Ya",
       "image": "./assets/ramen/kojiro.jpg",
       "rating": 6,
       "comment": "Perfect for a cold night."
-    },
-    {
-      "id": "0a51",
-      "name": "Spicy Ramen",
-      "restaurant": "Mike's House of Ramen",
-      "image": "https://saucedupfoods.com/wp-content/uploads/2022/08/Screen-Shot-2022-08-08-at-6.54.01-AM.png",
-      "rating": "10",
-      "comment": "!!!"
-    },
-    {
-      "id": "bbc9",
-      "name": "Supermarket Ramen",
-      "restaurant": "Kroger",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_a0a858eb-cd3c-406a-b82d-94280f89af56?wid=1200&hei=1200&qlt=80&fmt=webp",
-      "rating": "2",
-      "comment": "eh"
-    },
-    {
-      "id": "daa3",
-      "name": "Better Supermarket Ramen",
-      "restaurant": "Fancy Grocery",
-      "image": "https://m.media-amazon.com/images/W/MEDIAX_849526-T3/images/I/813ZQHzytLL._SX679_.jpg",
-      "rating": "8",
-      "comment": "$4 well spent"
     }
   ]
 }

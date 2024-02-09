@@ -31,32 +31,7 @@ header {
 #ramen-menu img {
   flex: 0 1 auto;
   height: 150px;
-  cursor: pointer;
-}
-
-#ramen-menu div {
-  display: flex;
   margin-right: 0.5rem;
-  /* border: 1px solid purple; */
-  justify-content: right;
-}
-
-#ramen-menu span {
-  color: lightgrey;
-  position: relative;
-  right: 32px;
-  top: 8px;
-  line-height: 0.9em;
-  font-size: 24px;
-  font-weight: 900;
-  height: 1.1em;
-  width: 1.1em;
-  border-radius: 50%;
-}
-
-#ramen-menu span:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-  color: black;
   cursor: pointer;
 }
 
