@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const displayRamens = (bowl) => {
     const ramenMenu = document.querySelector("#ramen-menu");
     let ramenDiv = document.createElement("div");
+    ramenDiv.id = bowl.id;
     let ramenImg = document.createElement("img");
     ramenImg.src = bowl.image;
     let ramenDelete = buildDelete(ramenDiv);
@@ -54,9 +55,21 @@ document.addEventListener("DOMContentLoaded", () => {
     let deleteButton = document.createElement("span");
     deleteButton.textContent = "⨉";
     deleteButton.addEventListener("click", () => {
+      // !   Deletions do not post to the db.json with the following
+      // !   code commented out; this is so I don't have to recreate
+      // !   my json.db for testing. A parenthesis and a bracket need
+      // !   to be moved, as well, after uncommenting this.
+
+      // fetch(`http://localhost:3000/ramens/${div.id}`, {
+      //   method: "DELETE",
+      //   "content-type": "application/json",
+      // })
+      //   .then((res) => res.json())
+      //   .then((data) => {
+      //     console.log(data);
       div.remove();
-      console.log("click achieved");
     });
+
     return deleteButton;
   };
 
