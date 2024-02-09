@@ -29,9 +29,9 @@ const addSubmitListener = (form) => {
   });
 };
 
-const fetchRamen = (newRamen, method) => {
+const postNewRamen = (newRamen) => {
   fetch(`http://localhost:3000/ramens`, {
-    method: `${method}`,
+    method: `POST`,
     headers: {
       "content-type": "application/json",
     },
