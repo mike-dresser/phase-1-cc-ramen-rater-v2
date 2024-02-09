@@ -19,14 +19,14 @@ document.addEventListener("DOMContentLoaded", () => {
         rating: e.target[3].value,
         comment: e.target[4].value,
       };
-      postNewRamen(newRamenObj);
+      fetchRamen(newRamenObj, method);
       ramenForm.reset();
     });
   };
 
-  const postNewRamen = (newRamen) => {
+  const fetchRamen = (newRamen, method) => {
     fetch(`http://localhost:3000/ramens`, {
-      method: "POST",
+      method: `${method}`,
       headers: {
         "content-type": "application/json",
       },
